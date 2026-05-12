@@ -1,16 +1,9 @@
+import Navbar from "../components/Navbar";
+
 export default function Home() {
   return (
     <main>
-      {/* NAVBAR */}
-      <nav>
-        <div>LOGO</div>
-        <ul>
-          <li>Services</li>
-          <li>Tracking</li>
-          <li>About</li>
-        </ul>
-        <button>Contact</button>
-      </nav>
+      <Navbar />
 
       {/* HERO SECTION */}
       <section>
@@ -29,7 +22,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer>
-        <p>© 2026 Logistics Demo. All rights reserved.</p>
+        <p>© 2026 Logistics Demo. All rights reserved.</p>
       </footer>
     </main>
   );
