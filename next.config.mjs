@@ -5,10 +5,10 @@ const nextConfig = {
     turbo: {}, // ✅ must be an object, not a boolean
   },
   images: {
-    domains: ["images.unsplash.com", "vercel.com"], // optional image domains
+    domains: ["images.unsplash.com", "vercel.com"],
   },
   eslint: {
-    ignoreDuringBuilds: true, // prevents ESLint errors from blocking deployment
+    ignoreDuringBuilds: true,
   },
 };
 
