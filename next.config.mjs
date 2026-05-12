@@ -2,10 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    turbo: true, // enables Turbopack for faster builds
+    turbo: {}, // ✅ must be an object, not a boolean
   },
   images: {
-    domains: ["images.unsplash.com", "vercel.com"], // add any external image domains you use
+    domains: ["images.unsplash.com", "vercel.com"], // optional image domains
   },
   eslint: {
     ignoreDuringBuilds: true, // prevents ESLint errors from blocking deployment
